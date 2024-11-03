@@ -29,7 +29,7 @@ func main() {
 
 	// Setting Up CORS to allow all origins
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "*",
+		AllowOrigins: "https://ws-golang-front.onrender.com",
 		AllowMethods: "GET,POST,PATCH,PUT,DELETE",
 	}))
 
